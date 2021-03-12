@@ -1,10 +1,11 @@
-import './App.css';
+import "./App.css";
+import Homepage from "./homepage.component";
+import "./homepage.styles.scss";
 
 function App() {
   return (
     <div>
-      <h1>Hello world</h1>
-      
+      <Homepage />
     </div>
   );
 }
